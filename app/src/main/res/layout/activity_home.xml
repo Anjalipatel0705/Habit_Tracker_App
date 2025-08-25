@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg_gradient">
+
+    <!-- Welcome Message -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Habit Tracker 🎯"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button to Add Habit -->
+    <Button
+        android:id="@+id/btnAddHabit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Add New Habit"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+    <!-- Button to View Habits -->
+    <Button
+        android:id="@+id/btnViewHabits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 View Habits"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_green_light" />
+
+    <!-- Button to Logout -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚪 Logout"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+</LinearLayout>
